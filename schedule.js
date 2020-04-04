@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('#currentDay').text(moment().format('llll'));
 
 
-    //Set function for event to go into Local Storage
+    //Set variables for event to go into Local Storage
     var nine = localStorage.getItem("09:00 AM");
     $("#nine").text(nine);
 
