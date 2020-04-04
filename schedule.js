@@ -44,7 +44,7 @@ $(document).ready(function () {
         setEvent();
     });
 
-    //Set function for event to go into GUI
+    //Set function for setEvent mentioned above (saves value to the key)
     function setEvent() {
         localStorage.setItem(
             "09:00 AM",
